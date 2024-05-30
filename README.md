@@ -13,18 +13,12 @@ At the end of the project the plane was test flown, but crashed almost immediate
 ## Fuselage:
 ![Side view of the fuselage internals, showing the electronics](https://github.com/Val4evr/Solar-Plane-V5/blob/main/Images/Fuselage%20internals.png)
 
-The fuselage "shell" contains the most important electrical components:
-
-1. Battery
-2. MPPT Charge controller
-3. Charge controller "manager" board
-4. ESC (not modelled)
-5. Reciever (not modelled)
-6. Wiring (not modelled)
-
-These are mounted on a carbon fiber rail system using neodymium magnets (to ensure easy servicing). The rails are securely attached to the main structural beam which connects the fuselage, wings and tail together. 
+The fuselage shell contains most of the electrical components.
+These are mounted on a carbon fibre rail system using neodymium magnets (to ensure easy servicing). The rails are securely attached to the main structural beam which connects the fuselage, wings and tail together. A placeholder for the motor at the front is also present. 
 
 ## Electronics:
+![Picture of a PCB 3D model with two yellow connectors, labeled "ESC" and "BATT"](https://github.com/Val4evr/Solar-Plane-V5/blob/main/Images/MPPT%20Manager%20board.png)
+Sunpower C60 cells are wired in a 7S2P configuration, and provide 4.2v to the MPPT boost charge controller. The charge controller is connected to a custom adapter PCB designed by a friend via an IPC cable. The battery and ESC are subsequently connected to it. There is also a RPi Pico microcontroller that can be used to log charge controller errors, although that was never implemented.    
 
 ## Planform / aero:
 
