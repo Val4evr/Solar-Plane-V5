@@ -25,7 +25,7 @@ Sunpower C60 cells are wired in a 7S2P configuration, and provide 4.2v to the MP
 The 14 C60 cells generate a theoretical peak power of 50W. The cells are embedded in the wing at a depth of 0.15mm, meaning that they have minimal aerodynamic impact. The wing is also laminated with epoxy resin, providing a very smooth surface finish.
 
 
-### Planform $ calculations:
+### Planform calculations:
 ![Screenshot of web tool used for calculation](https://github.com/Val4evr/Solar-Plane-V5/blob/main/Images/Planform%20calculations.png)
 The planform design is made in a web tool called [cgCalc](https://www.ecalc.ch/cgcalc.php?deeplink=Solar%20Plane%20V5;mm;mono;175;175;175;175;175;175;0;0;0;0;0;910;0;0;0;0;9;47;47;22.5;18.7;1;0;0;5;8;25.2;0;7;81;3;2;0;0.80;100;100;100;100;100;100;0;0;0;0;0;200;0;0;0;0;800;25;7.5;0;20;165;30;). It was used to iteratively arrive at a design that has space for solar panels, while also having a high theoretical efficiency and being simple enough to be feasible to complete in the limited time frame. 
 
@@ -41,6 +41,9 @@ The internal structure of the LW-PLA components is optimized to be printed in va
 ![Image showing wireframe cad model of wing. All the internal ribs are visible](https://github.com/Val4evr/Solar-Plane-V5/blob/main/Images/Wing%20wire%20view.png)
 
 As seen above, the internal structure of the LW-PLA parts is complex. The skin, ribs, spar and stringers are combined into a single part. This reduces mass, manufacturing complexity, and gives good skin surface quality as there is little space between ribs. To further add to the surface quality, and protect the solar cells, the wings are coated with a thin layer of epoxy resin. The foam texture of the LW-PLA is great at bonding with epoxy, so no preparation is needed except a light sanding. 
+
+![Screenshot of sliced wing featuring the internal structure](https://github.com/Val4evr/Solar-Plane-V5/blob/main/Images/Wing%20internal%20structure.png)
+The "print prep" models are not representative of the real geometry. It is only a method of convincing the slicer to output the desired geometry, and it can only be visualized correctly in that way or in wireframe. Above is a portion of the wing in slicer view. 
 
 
 ### Structural elements:
